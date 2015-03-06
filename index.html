@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Guía de Estilos</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<!-- @import/patrones/includes/main-nav.html -->
+		<header>
+			<h1>Título</h1>
+		</header>
+	
+		
+		<header role="banner" class="main-header" data-price="5€">
+			<h1>Esto es un encabezado H1</h1>
+			<h2>Esto es un encabezado H2</h2>
+			<h3>Esto es un encabezado H3</h3>
+			<h4>Esto es un encabezado H4</h4>
+			<h5>Esto es un encabezado H5</h5>
+			<h6>Esto es un encabezado H6</h6>
+
+		</header>
+		<form class="main-header" data-price="2€">
+			<input type="text" placeholder="texto">
+			<input type="password"  placeholder="password">
+			<input type="email"  placeholder="email" required>
+			<input type="tel"  placeholder="tel">
+			<input type="url" placeholder="URL">
+			<input type="submit" value="Mandar">
+			<input type="checkbox">
+			<input type="radio">
+		</form>
+		
+		<nav role="navigation">
+			<!-- <a href="">Nav Item 1</a>
+			<a href="">Nav Item 2</a>
+			<a href="">Nav Item 3</a>
+			<a href="">Nav Item 4</a>k
+			<a href="">Nav Item 5</a>
+			<a href="">Nav Item 6</a> -->
+			<ul>
+				<li>Menu 1</li>
+				<li>Menu 2</li>
+				<li>Menu 3</li>
+				<li>Menu 4</li>
+				<li>Menu 5</li>
+				<li>Menu 6</li>
+			</ul>
+		</nav>
+	<main role="main" class="home">
+		<section class="home__section">
+			<header class="main-header main-header--bgaqua">
+				<h3 class="alter-header">Título de la sección</h3>
+			</header>
+			<article>
+				<header>
+					<h4>Título del artículo</h4>
+				</header>
+				<p>Lorem <strong>strong</strong> <b>Bold</b> ipsum <em>dolor</em> <small>small</small> sit amet,<br> consectetur adipisicing elit. Dolor aspernatur beatae sunt sequi, totam vitae fuga? Nam vel ex aliquid, nostrum minus vero iure veritatis modi rem repudiandae ea, officia! </p>
+			</article>
+		</section>
+		
+		<aside class="home__aside">
+			<ul id="js-nombreselector">
+				<li class="red-social facebook" data-followers="9">Facebook</li>
+				<li class="red-social" data-followers="100">Twitter</li>
+				<li><input type="text" required></li>
+				<li><input type="text"></li>
+			</ul>
+		</aside>
+		
+</main>		
+		<footer>
+			Copyright Daniel Martínez 2015 email: <a href="mailto:wakkos@gmail.com">Wakkos en Gmail</a>
+		</footer>
+	</body>
+</html>
